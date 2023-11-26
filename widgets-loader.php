@@ -124,6 +124,7 @@ final class ADEVMC_Widgets_Loader
         wp_enqueue_script('material-cards-js', plugins_url('js/jquery.material-cards.min.js', __FILE__), array('jquery'), '1.0.0');
         wp_enqueue_style('material-cards-css', plugins_url('css/material-cards.css', __FILE__), array(), '1.0.0');
         wp_enqueue_style('bootstrap-v3', 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css', array(), '3.3.5');
+        // wp_enqueue_style('font-awesome-v3', 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css', array(), '3.3.5');
         wp_enqueue_style('font-awesome');
     }
     /**
